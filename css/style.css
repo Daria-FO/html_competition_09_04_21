@@ -33,7 +33,7 @@
 .competition__gray-text {
     color: #BCBBBB;
 }
-.competition__word-throug {
+.competition__word-through {
     text-decoration: line-through;
 }
 .competition__list-title {
@@ -44,6 +44,9 @@
 .competition__list-item {
     font-weight: 500;
     font-size: var(--normal-font);
+}
+.competition__list-item::marker {
+    font-size: 15px;
 }
 h3.competition__heading {
     font-weight: 500;
