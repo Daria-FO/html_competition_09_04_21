@@ -36,6 +36,9 @@
 .competition__word-through {
     text-decoration: line-through;
 }
+.competition__list {
+   padding-left: 42px;
+}
 .competition__list-title {
     font-style: italic;
     font-size: var(--normal-font);
@@ -44,9 +47,10 @@
 .competition__list-item {
     font-weight: 500;
     font-size: var(--normal-font);
+    padding-left: 10px;
 }
 .competition__list-item::marker {
-    font-size: 15px;
+    font-size: 22px;
 }
 h3.competition__heading {
     font-weight: 500;
